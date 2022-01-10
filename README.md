@@ -50,7 +50,7 @@ https://www.trufflesuite.com/ganache
    Now run `truffle console --network rinkeby` to connect to Rinkeby Public test network.  
    Run `migrate` command to deploy the contract on Rinkeby testnet.  
    Run `let art = await ArtCollectible.deployed()`.    
-   Run `await art.claimItem('https://ipfs.io/ipfs/QmREBUVuoeX39eB9KiQjp25RFr2dhYF6zawpYXq1UPJXEz')`   
+   Run `await art.claimItem('https://ipfs.io/ipfs/QmaLq536jF9Lp63hueohuWyDmjjRfjwreoRhThbaxVqc1F')`   
    Pass the correct metadata file IPFS address to claimItem.  
    Run `art.address` to get contract address.  
 
@@ -63,5 +63,19 @@ https://www.trufflesuite.com/ganache
    Party!!🥳🥳
 
 
+## Verify on Etherscan
+```
+npx truffle run verify ArtCollectible --network rinkeby
 
+npx hardhat verify --network rinkeby 0x0ec1ea1a9d277e487e334176668b6324b938cfa5
+```
 
+## Hardhat deploy
+```
+npx hardhat run --network rinkeby scripts/hardhat-deploy.js
+```
+
+### Hardhat claimNFT
+```
+npx hardhat run --network rinkeby scripts/hardhat-claim.js
+```

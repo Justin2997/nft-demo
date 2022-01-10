@@ -7,7 +7,7 @@ const config = require('config');
 // If the file does not exists in specified location, it creates it
 const storeDataToFile = async (jsonData) => {
   try {
-    const filePath = path.join(__dirname, config.get('ipfsFile.location'));
+    const filePath = path.join(__dirname, '../data/ipfsHash.json');
     const ipfsFileExists = await fileExists(filePath);
     if (!ipfsFileExists) {
       console.log('ipfsFileExists: ', ipfsFileExists);

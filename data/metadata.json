@@ -1,12 +1,12 @@
 {
   "attributes": [
     {
-      "trait_type": "Color",
-      "value": "Pink"
+      "trait_type": "Learning status",
+      "value": "In Progress"
     }
   ],
-  "description": "Paul predicts future!",
-  "image": "https://ipfs.io/ipfs/QmQYE35JdthxvBZahG77w5XSuPKL2jNkJdtxQo4Pc57U1n",
-  "name": "Paul The Octopus"
+  "description": "My nft collection app ! https://collections.justinbrulotte.com/",
+  "image": "https://ipfs.io/ipfs/QmaLq536jF9Lp63hueohuWyDmjjRfjwreoRhThbaxVqc1F",
+  "name": "My NFT collection logo"
 }
 
